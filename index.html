@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITS Cafe - Motion Order Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>MITS CAFE</h1>
+        <p>Click on any moving item to add it to your order tray!</p>
+    </header>
+
+    <!-- Moving Digital Menu Board Container -->
+    <main class="menu-motion-container">
+        <div class="menu-track" id="menuTrack">
+            
+            <div class="menu-item" data-name="Puffs" data-price="15" data-emoji="🥐">
+                <span class="item-emoji">🥐</span>
+                <span class="item-name">Puffs</span>
+                <span class="item-price">₹15</span>
+            </div>
+            <div class="menu-item" data-name="Meatroll" data-price="40" data-emoji="🌯">
+                <span class="item-emoji">🌯</span>
+                <span class="item-name">Meatroll</span>
+                <span class="item-price">₹40</span>
+            </div>
+            <div class="menu-item" data-name="Cutlet" data-price="15" data-emoji="🧆">
+                <span class="item-emoji">🧆</span>
+                <span class="item-name">Cutlet</span>
+                <span class="item-price">₹15</span>
+            </div>
+            <div class="menu-item" data-name="Sandwich" data-price="45" data-emoji="🥪">
+                <span class="item-emoji">🥪</span>
+                <span class="item-name">Sandwich</span>
+                <span class="item-price">₹45</span>
+            </div>
+            <div class="menu-item" data-name="Pink Red Bull" data-price="125" data-emoji="🥤">
+                <span class="item-emoji">🥤</span>
+                <span class="item-name">Pink Red Bull</span>
+                <span class="item-price">₹125</span>
+            </div>
+            <div class="menu-item" data-name="Blue Red Bull" data-price="125" data-emoji="🥤">
+                <span class="item-emoji">🥤</span>
+                <span class="item-name">Blue Red Bull</span>
+                <span class="item-price">₹125</span>
+            </div>
+            <div class="menu-item" data-name="Red Red Bull" data-price="125" data-emoji="🥤">
+                <span class="item-emoji">🥤</span>
+                <span class="item-name">Red Red Bull</span>
+                <span class="item-price">₹125</span>
+            </div>
+            <div class="menu-item" data-name="Belgium Chocolate Cavins Shake" data-price="60" data-emoji="🧋">
+                <span class="item-emoji">🧋</span>
+                <span class="item-name">Belgium Chocolate Cavins Shake</span>
+                <span class="item-price">₹60</span>
+            </div>
+            <div class="menu-item" data-name="Chocolate Shake" data-price="50" data-emoji="🧋">
+                <span class="item-emoji">🧋</span>
+                <span class="item-name">Chocolate Shake</span>
+                <span class="item-price">₹50</span>
+            </div>
+            <div class="menu-item" data-name="Tea" data-price="10" data-emoji="🍵">
+                <span class="item-emoji">🍵</span>
+                <span class="item-name">Tea</span>
+                <span class="item-price">₹10</span>
+            </div>
+            <div class="menu-item" data-name="Coffee" data-price="15" data-emoji="☕">
+                <span class="item-emoji">☕</span>
+                <span class="item-name">Coffee</span>
+                <span class="item-price">₹15</span>
+            </div>
+
+            
+            <div class="menu-item" data-name="Puffs" data-price="15" data-emoji="🥐">
+                <span class="item-emoji">🥐</span>
+                <span class="item-name">Puffs</span>
+                <span class="item-price">₹15</span>
+            </div>
+            <div class="menu-item" data-name="Meatroll" data-price="40" data-emoji="🌯">
+                <span class="item-emoji">🌯</span>
+                <span class="item-name">Meatroll</span>
+                <span class="item-price">₹40</span>
+            </div>
+            <div class="menu-item" data-name="Cutlet" data-price="15" data-emoji="🧆">
+                <span class="item-emoji">🧆</span>
+                <span class="item-name">Cutlet</span>
+                <span class="item-price">₹15</span>
+            </div>
+            <div class="menu-item" data-name="Sandwich" data-price="45" data-emoji="🥪">
+                <span class="item-emoji">🥪</span>
+                <span class="item-name">Sandwich</span>
+                <span class="item-price">₹45</span>
+            </div>
+            <div class="menu-item" data-name="Pink Red Bull" data-price="125" data-emoji="🥤">
+                <span class="item-emoji">🥤</span>
+                <span class="item-name">Pink Red Bull</span>
+                <span class="item-price">₹125</span>
+            </div>
+            <div class="menu-item" data-name="Blue Red Bull" data-price="125" data-emoji="🥤">
+                <span class="item-emoji">🥤</span>
+                <span class="item-name">Blue Red Bull</span>
+                <span class="item-price">₹125</span>
+            </div>
+            <div class="menu-item" data-name="Red Red Bull" data-price="125" data-emoji="🥤">
+                <span class="item-emoji">🥤</span>
+                <span class="item-name">Red Red Bull</span>
+                <span class="item-price">₹125</span>
+            </div>
+            <div class="menu-item" data-name="Belgium Chocolate Cavins Shake" data-price="60" data-emoji="🧋">
+                <span class="item-emoji">🧋</span>
+                <span class="item-name">Belgium Chocolate Cavins Shake</span>
+                <span class="item-price">₹60</span>
+            </div>
+            <div class="menu-item" data-name="Chocolate Shake" data-price="50" data-emoji="🧋">
+                <span class="item-emoji">🧋</span>
+                <span class="item-name">Chocolate Shake</span>
+                <span class="item-price">₹50</span>
+            </div>
+            <div class="menu-item" data-name="Tea" data-price="10" data-emoji="🍵">
+                <span class="item-emoji">🍵</span>
+                <span class="item-name">Tea</span>
+                <span class="item-price">₹10</span>
+            </div>
+            <div class="menu-item" data-name="Coffee" data-price="15" data-emoji="☕">
+                <span class="item-emoji">☕</span>
+                <span class="item-name">Coffee</span>
+                <span class="item-price">₹15</span>
+            </div>
+        </div>
+    </main>
+
+
+    <section class="checkout-layout">
+        
+        <div class="card-box order-tray">
+            <h2>Active Order Basket</h2>
+            <ul id="trayList" class="tray-list">
+                <p class="empty-msg">Tray is empty. Click items above to add!</p>
+            </ul>
+            <div class="bill-summary">
+                <h3>Total Cash: <span id="totalBill">₹0</span></h3>
+                
+                <!-- Action Buttons Area -->
+                <button id="btnConfirmOrder" class="btn-action confirm-btn" disabled>Confirm & Order Now</button>
+
+                <div class="mits-notice-card">
+                    <p class="notice-main">⚡ Order now, pay and take delivery at MITS Cafe!</p>
+                    <p class="notice-sub">Simply hit the confirm button, take a screenshot of your basket, and bring it to the counter.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="card-box config-panel">
+            <h2>Quick Add Item to Menu</h2>
+            <form id="addItemForm">
+                <div class="field">
+                    <label>Item Name:</label>
+                    <input type="text" id="itemName" placeholder="e.g., Mango Juice" required>
+                </div>
+                <div class="field">
+                    <label>Price (₹):</label>
+                    <input type="number" id="itemPrice" placeholder="25" min="1" required>
+                </div>
+                <div class="field">
+                    <label>Visual Emoji Icon:</label>
+                    <select id="itemEmoji">
+                        <option value="🧋">🧋 Milkshake</option>
+                        <option value="🍹">🍹 Juice / Drink</option>
+                        <option value="🥤">🥤 Energy Drink / Soda</option>
+                        <option value="🥐">🥐 Puffs / Bakery</option>
+                        <option value="🍟">🍟 Snacks / Fries</option>
+                        <option value="🍔">🍔 Burger</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-action admin-btn">Inject to Motion Track</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
